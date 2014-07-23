@@ -25,6 +25,10 @@ console.log("可以传入多个参数","，","并一起打印出来","。");
 var count = 5;
 console.log("可以像'printf()'那样接受多个参数，比如 count %d", count);
 
+//下面例子在第一个字符串中没有找到格式化元素，那么 util.inspect 将被应用到
+//各个参数，其效果与 console.dir 类似。
+console.log(console);
+
 /**
  * console.info([data],[...])
  * 用法与 console.log 相同。
